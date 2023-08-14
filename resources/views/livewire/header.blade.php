@@ -3,17 +3,17 @@
         <div class="p-4 flex flex-row items-center w-full md:w-1/4">
             <h1 class="my-auto md:text-3xl text-xl">La Licorne Verte</h1>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
-                 class="w-8 h-8 fill-blue-300"><image
+                 class="w-8 h-8 fill-blue-300 stroke-blue-300"><image
                     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAxdJREFUWEedV4tVGzEQnO2AdAAdmA5wB6aD0AGpALsCkgoMFYQOoIPQQejA7kB5o+9KWunO0eM9zqffaHZ2tCco7S+ADwA/AJzV+xWPAsCtGNcPETV1A8F7XOcBwNt/rXjhJA2AU68AvAPYRDYI5Gu+ZjpCw8IKUjhE/F+iLzwSxG8I7uB8KH4JsB8RvGKfKX7Oj61b6gjge+z8BPAAwWeN9UK+jeERgEDglIwymEcInlXHTwAHQM6RtethiBhcNxamDlzA1RJQfpMFspHGUBPUBjPmTwTwCsjbcib0AQsMLAeSoqQ4qY/UmCUE86jeERTfHSxmWp7T1jYDfbwIgkzwf2oUqQalTiMHwO0tlejzKhGuElRMU9nUmhnOpWZobHVj7rkQsDkAWxcE8awyZAn5PU2tLFU/rWQgTMpTBVdwOPUWUrAo7F8C3Mx8ZJCdU2/febPqmYXrfM0PYta8jPTQi9DKimphuXNwzIrcgsIZU+dB+OEFDTOGobDksBTClCyKEcERLrvkqjwuts/1wlrxLlgDoDrqDm5Av3k+l3zmFgAtvWq9COeXGjOAdUOT+5YYOn/bQvDRlg3TLPBYKkCyB9yTHcmU1bV41fStAB+ttD2AqRPXnTw9L6ARhjMgVz7Gymzi4G24PyhXjig6GB+o7zn5DZKNhX5fM8Q0Y3rSpEqrfSeLLzFhhsC6s6L16hohbaLFRW/YGZzygrrp5RfM7ZKWbJgnPUPwCod04bDvVEKq7z5/VQcfaG6iBkD8WVMcAE6F4gfsIe7JUrmT4oR56Viw2ACqVeydmwzhFc3ipGl57jcyljbTmTAJgbGxtULwBG4esqOf9oLAgFkwdQDsPdK6afW8y0aAo6uLlBiyXBNSfMPSfsDA4PS1i+wQ7gTDFfN8lmalKmoEGO1irrEaineXazhhru/q74nOeej7t53sG5WONdCRkF9YXuD9LRf2/H4AtvywMQ7d+ZTlWkveQMFFFrqhjPe9CD7LZ4FlbZOasB0+sQAaEhlJOggnr76uy+zCkn63dNblfrJBC+adQLe76NP+H52TBDT+gkngAAAAAElFTkSuQmCC"
                     width="32" height="32"/></svg>
         </div>
 
         <ul class="hidden md:flex md:flex-row gap-4 mx-auto md:w-1/2">
-            <li>Savoir Faire</li>
-            <li>Qui sommes-nous?</li>
-            <li>Références</li>
-            <li>Destock</li>
-            <li>Contact & Devis</li>
+            <li><a href="#">Savoir Faire</a></li>
+            <li><a href="#">Qui sommes-nous?</a></li>
+            <li><a href="#">Références</a></li>
+            <li><a href="#">Destock</a></li>
+            <li><a href="#">Contact & Devis</a></li>
         </ul>
             <label for="theme" class="flex flex-row items-center hover:cursor-pointer p-4">
                 <svg class="w-6 md:w-8 dark:fill-amber-200 fill-amber-700 hv"
