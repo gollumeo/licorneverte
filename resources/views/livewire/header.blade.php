@@ -9,11 +9,11 @@
         </div>
 
         <ul class="hidden md:flex md:flex-row gap-4 mx-auto md:w-1/2">
-            <li><a href="#">Savoir Faire</a></li>
-            <li><a href="#">Qui sommes-nous?</a></li>
-            <li><a href="#">Références</a></li>
-            <li><a href="#">Destock</a></li>
-            <li><a href="#">Contact & Devis</a></li>
+            <li><a class="{{ request()->routeIs('savoir-faire') ? 'dark:text-blue-300 text-blue-900 font-bold' : null }} " href="{{route('savoir-faire')}}">Savoir Faire</a></li>
+            <li><a href="{{route('a-propos')}}">Qui sommes-nous?</a></li>
+            <li><a href="{{route('references')}}">Références</a></li>
+            <li><a href="{{route('destock')}}">Destock</a></li>
+            <li><a href="{{route('contact')}}">Contact & Devis</a></li>
         </ul>
             <label for="theme" class="flex flex-row items-center hover:cursor-pointer p-4">
                 <svg class="w-6 md:w-8 dark:fill-amber-200 fill-amber-700 hv"

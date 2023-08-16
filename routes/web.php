@@ -15,24 +15,24 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('/');
 
 Route::get('/savoir-faire', function () {
     return view('savoir-faire');
-});
+})->name('savoir-faire');
 
 Route::get('/a-propos', function () {
     return view('a-propos');
-});
+})->name('a-propos');
 
 Route::get('/references', function () {
     return view('references');
-});
+})->name('references');
 
 Route::get('/destock', function () {
     return view('destock');
-});
+})->name('destock');
 
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name('contact');
