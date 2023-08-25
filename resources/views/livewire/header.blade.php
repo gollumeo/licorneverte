@@ -1,4 +1,4 @@
-<div class="w-full border-b border-b-gray-700 md:h-28 sticky bg-blue-200 dark:bg-gray-700 dark:border-b-gray-300 flex">
+<div class="w-full border-b border-b-gray-700 md:h-28 sticky bg-fuchsia-100 dark:bg-gray-700 dark:border-b-gray-300 flex">
     <nav class="w-full m-auto flex flex-row items-center md:justify-between justify-end">
         <div class="p-4 flex flex-row items-center w-full md:w-1/4">
             <h1 class="my-auto md:text-3xl text-xl">La Licorne Verte</h1>
@@ -8,12 +8,12 @@
         </div>
 
         <ul class="hidden min-[1360px]:flex md:flex-row gap-4 mx-auto md:w-1/2">
-            <li><a class="{{ request()->routeIs('/') ? 'dark:text-blue-300 text-blue-900 font-bold underline' : null }} " href="{{route('/')}}">Accueil</a></li>
-            <li><a class="{{ request()->routeIs('savoir-faire') ? 'dark:text-blue-300 text-blue-900 font-bold underline' : null }} " href="{{route('savoir-faire')}}">Savoir Faire</a></li>
-            <li><a class="{{ request()->routeIs('a-propos') ? 'dark:text-blue-300 text-blue-900 font-bold underline' : null }} " href="{{route('a-propos')}}">Qui sommes-nous?</a></li>
-            <li><a class="{{ request()->routeIs('references') ? 'dark:text-blue-300 text-blue-900 font-bold underline' : null }} " href="{{route('references')}}">Références</a></li>
-            <li><a class="{{ request()->routeIs('destock') ? 'dark:text-blue-300 text-blue-900 font-bold underline' : null }} " href="{{route('destock')}}">Destock</a></li>
-            <li><a class="{{ request()->routeIs('contact') ? 'dark:text-blue-300 text-blue-900 font-bold underline' : null }} " href="{{route('contact')}}">Contact & Devis</a></li>
+            <li><a class="{{ request()->routeIs('/') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} " href="{{route('/')}}">Accueil</a></li>
+            <li><a class="{{ request()->routeIs('savoir-faire') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} " href="{{route('savoir-faire')}}">Savoir-faire</a></li>
+            <li><a class="{{ request()->routeIs('galerie') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} " href="{{route('galerie')}}">Galerie</a></li>
+            <li><a class="{{ request()->routeIs('references') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} " href="{{route('references')}}">Références</a></li>
+            <li><a class="{{ request()->routeIs('destock') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} " href="{{route('destock')}}">Destock</a></li>
+            <li><a class="{{ request()->routeIs('contact') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} " href="{{route('contact')}}">Contact & Devis</a></li>
         </ul>
         <label for="theme" class="flex flex-row items-center hover:cursor-pointer p-4">
             <svg class="w-6 md:w-8 dark:fill-amber-200 fill-amber-700 hv" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 207.628 207.628">

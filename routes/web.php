@@ -21,9 +21,9 @@ Route::get('/savoir-faire', function () {
     return view('savoir-faire');
 })->name('savoir-faire');
 
-Route::get('/a-propos', function () {
-    return view('a-propos');
-})->name('a-propos');
+Route::get('/galerie', function () {
+    return view('galerie');
+})->name('galerie');
 
 Route::get('/references', function () {
     return view('references');
