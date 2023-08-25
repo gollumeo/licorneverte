@@ -31,9 +31,9 @@
             src="{{asset('assets/confidents/rouen.jpg')}}" alt="rouen">
     </div>
     <div class="flex flex-rpw gap-4 p-4 w-full">
-        <a href="{{route('savoir-faire')}}" class="flex-1 w-1/4 text-center text-xl">Savoir-faire</a><a
-            href="{{route('galerie')}}" class="flex-1 w-1/4 text-center text-xl">Galerie</a><a
-            href="{{route('savoir-faire')}}" class="flex-1 w-1/4 text-center text-xl">Contact & devis</a>
+        <a href="{{route('savoir-faire')}}" class="flex-1 w-1/4 text-center text-xl hover:text-violet-700 transition duration-500 dark:hover:text-blue-300">Savoir-faire</a><a
+            href="{{route('galerie')}}" class="flex-1 w-1/4 text-center text-xl hover:text-violet-700 transition duration-500 dark:hover:text-blue-300">Galerie</a><a
+            href="{{route('savoir-faire')}}" class="flex-1 w-1/4 text-center text-xl hover:text-violet-700 transition duration-500 dark:hover:text-blue-300">Contact & devis</a>
     </div>
 
 </main>
