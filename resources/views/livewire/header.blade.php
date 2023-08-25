@@ -7,7 +7,7 @@
             </svg>
         </div>
 
-        <ul class="hidden md:flex md:flex-row gap-4 mx-auto md:w-1/2">
+        <ul class="hidden min-[1360px]:flex md:flex-row gap-4 mx-auto md:w-1/2">
             <li><a class="{{ request()->routeIs('/') ? 'dark:text-blue-300 text-blue-900 font-bold underline' : null }} " href="{{route('/')}}">Accueil</a></li>
             <li><a class="{{ request()->routeIs('savoir-faire') ? 'dark:text-blue-300 text-blue-900 font-bold underline' : null }} " href="{{route('savoir-faire')}}">Savoir Faire</a></li>
             <li><a class="{{ request()->routeIs('a-propos') ? 'dark:text-blue-300 text-blue-900 font-bold underline' : null }} " href="{{route('a-propos')}}">Qui sommes-nous?</a></li>
