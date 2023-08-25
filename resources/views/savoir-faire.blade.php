@@ -25,9 +25,9 @@
                 <p class="p-4">C'est cette capacité à donner <em>vie</em> qui attire aujourd'hui les artistes plasticiens, les chorégraphes et les architectes à collaborer avec les ateliers de <strong>La Licorne Verte</strong>, offrant des opportunités créatives des plus stimulantes.</p>
                 <p class="p-4">Cependant, ces ateliers ne se contentent pas de maîtriser cette technique ; ils aiment aussi la détourner avec <em>audace</em> et <em>légèreté</em>. Dans cet esprit, ils créent des œuvres <em>étonnantes</em> : arbres dorés ou colorés, sur lesquels poussent des petits messages, des pommes de cristal ou des parapluies. Ces créations <em>uniques</em>, nées de l'imagination de leurs concepteurs, prennent forme avec une aisance déconcertante.</p>
             </div>
-            <div class="rounded-xl">
+            <div class="rounded-xl mb-28">
                 <h2 class="text-center text-5xl text-slate-700 dark:text-blue-300 bg-fuchsia-100 dark:bg-gray-400 shadow-xl shadow-gray-400 py-4 rounded-2xl w-2/3 mx-auto dark:shadow dark:shadow-gray-400 dark:text-slate-800">Savoir-faire</h2>
-                <img class="shadow-2xl shadow-black mt-28 dark:shadow-gray-300 dark:shadow-none" src="{{asset('assets/portrait.jpg')}}" alt="Hervé Mayon">
+                <img class="shadow-2xl shadow-black mt-12 dark:shadow-gray-300 dark:shadow-none" src="{{asset('assets/portrait.jpg')}}" alt="Hervé Mayon">
             </div>
         </div>
 
