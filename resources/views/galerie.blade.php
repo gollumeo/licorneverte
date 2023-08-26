@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{ asset('assets/favicon.png') }}">
         <title>{{config('app.name')}} - Galerie</title>
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css', 'resources/js/carousel.js'])
     @livewireStyles
 </head>
 <body class="bg-fuchsia-50 text-gray-700 antialiased dark:bg-slate-800 dark:text-gray-300 max-h-screen text-justify p-0 min-h-screen flex flex-col">
 <livewire:header />
-<main class="flex-1 w-4/5 m-auto md:min-h-fit min-h-screen border-l border-r border-x-gray-700 dark:border-x-gray-300 shadow-xl shadow-gray-700 dark:shadow-gray-300 dark:shadow">
-<livewire:carousel />
+<main class="flex-1 w-4/5 m-auto md:min-h-fit min-h-screen border-l border-r border-x-gray-700 dark:border-x-gray-300 shadow-xl shadow-gray-700 dark:shadow-gray-300 dark:shadow flex justify-center">
+    <div class="flex flex-col justify-center items-center">
+        <livewire:carousel />
+    </div>
 </main>
 <livewire:footer />
 @livewireScripts

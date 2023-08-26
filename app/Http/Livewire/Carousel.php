@@ -27,17 +27,26 @@ class Carousel extends Component
 
     public int $currentIndex = 0;
 
+    public bool $isTransitioning;
+
     public function nextImage(): void
     {
+        $this->isTransitioning = true;
         $this->currentIndex = ($this->currentIndex + 1) % count($this->images);
+        $this->dispatchBrowserEvent('disable-transition', ['delay' => 500]);
     }
 
     public function previousImage(): void
     {
+        $this->isTransitioning = true;
         $this->currentIndex = ($this->currentIndex - 1 + count($this->images)) % count($this->images);
+        $this->dispatchBrowserEvent('disable-transition', ['delay' => 500]);
+        $this->isTransitioning = false;
     }
 
-    public function render(): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
+
+
+    public function render()
     {
         return view('livewire.carousel');
     }
