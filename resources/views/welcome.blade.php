@@ -22,7 +22,7 @@
     <div class="flex flex-row gap-4 p-4 w-full">
         <img class="flex-1 w-1/4 shadow-xl shadow-black hover:scale-105 transition duration-500 peer"
              src="{{asset('assets/equiphotel.jpg')}}" alt="equiphotel">
-        <div class="opacity-0 peer-hover:opacity-100 absolute translate-x-full">Test</div>
+        <div class="opacity-0 peer-hover:opacity-100 absolute translate-x-full"></div>
         <img
             class="flex-1 w-1/4 shadow-xl shadow-black hover:scale-105 transition duration-300"
             src="{{asset('assets/confidents/mercure.jpg')}}" alt="mercure">
