@@ -27,8 +27,8 @@
             </div>
             <p><i class="fa-solid fa-leaf fa-xl text-emerald-600 dark:text-emerald-400"></i></p>
             <div>
-                <p>03 83 52 09 50</p>
-                <p>06 11 17 04 74</p>
+                <p>+33 (0)3 83 52 09 50</p>
+                <p>+33 (0)6 11 17 04 74</p>
             </div>
             <p><i class="fa-solid fa-leaf fa-xl text-emerald-600 dark:text-emerald-400"></i></p>
             <a target="_blank" class="dark:hover:text-blue-300 hover:text-violet-700 transition duration-300 hover:scale-110" href="https://www.facebook.com/lalicorneverte"><i class="fa-brands fa-facebook fa-xl mr-0.5"></i>acebook</a>

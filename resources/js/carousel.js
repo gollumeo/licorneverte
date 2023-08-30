@@ -1,13 +1,29 @@
-import $ from 'jquery';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel';
-
-$(document).ready(function() {
-    $('.owl-carousel').owlCarousel({
-        items: 1, // Le nombre d'articles à afficher
-        loop: true, // Faire une boucle continue
-        nav: true, // Afficher les flèches de navigation
-        dots: false, // Masquer les indicateurs de pagination
-        // ... autres options que vous souhaitez configurer
-    });
-});
+// import Swiper from 'swiper';
+// import { Navigation, Pagination } from 'swiper/modules';
+// // import Swiper and modules styles
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
+//
+// // init Swiper:
+// const swiper = new Swiper('.swiper', {
+//     // Optional parameters
+//     direction: 'vertical',
+//     loop: true,
+//
+//     // If we need pagination
+//     pagination: {
+//         el: '.swiper-pagination',
+//     },
+//
+//     // Navigation arrows
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//     },
+//
+//     // And if we need scrollbar
+//     scrollbar: {
+//         el: '.swiper-scrollbar',
+//     },
+// });
