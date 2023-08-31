@@ -3,9 +3,12 @@
 namespace App\Http\Livewire;
 
 use Livewire\Component;
+use Livewire\WithPagination;
 
 class Carousel extends Component
 {
+
+    use WithPagination;
 
     public array $images = [
         'villa-lorraine_2021.jpg',
@@ -45,9 +48,10 @@ class Carousel extends Component
     }
 
 
-
     public function render()
     {
+//        $paginatedImages = collect($this->images)->paginate(3);
+
         return view('livewire.carousel');
     }
 }
