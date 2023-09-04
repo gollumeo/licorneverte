@@ -1,9 +1,9 @@
 <div
-    class="w-full border-b border-b-gray-700 md:h-28 sticky bg-fuchsia-100 dark:bg-gray-700 dark:border-b-gray-300 flex">
-    <nav class="w-full m-auto flex flex-row items-center md:justify-between justify-end">
-        <div class="p-4 flex flex-row items-center w-full md:w-1/4">
+    class="w-full border-b border-b-gray-700 sticky bg-fuchsia-100 dark:bg-gray-700 dark:border-b-gray-300 flex">
+    <nav class="w-full m-auto flex flex-row items-center md:justify-evenly justify-end">
+        <div class="p-4 flex flex-row items-center w-screen lg:w-1/5 justify-between">
             <a href="{{route('/')}}" class="flex flex-row">
-                <h1 class="my-auto md:text-3xl text-xl">La Licorne Verte</h1>
+                <h1 class="lg:my-auto text-2xl md:text-base xl:text-2xl hidden min-[400px]:flex">La Licorne Verte</h1>
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
                      class="w-8 h-8 fill-blue-300 stroke-blue-300">
                             <image
@@ -11,9 +11,30 @@
                                 width="32" height="32"/>
             </a>
             </svg>
+            <img src="{{asset('assets/burger.svg')}}" alt="menu burger" class="w-8 lg:hidden">
         </div>
+{{--        <ul class="flex flex-col justify-center items-center font-body absolute top-20 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-900 text-gray-50 hidden">--}}
+{{--            <li>--}}
+{{--                <a class="{{ request()->routeIs('/') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} "--}}
+{{--                   href="{{route('/')}}">Accueil</a></li>--}}
+{{--            <li>--}}
+{{--                <a class="{{ request()->routeIs('savoir-faire') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} "--}}
+{{--                   href="{{route('savoir-faire')}}">Savoir-faire</a></li>--}}
+{{--            <li>--}}
+{{--                <a class="{{ request()->routeIs('galerie') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} "--}}
+{{--                   href="{{route('galerie')}}">Galerie</a></li>--}}
+{{--            <li>--}}
+{{--                <a class="{{ request()->routeIs('references') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} "--}}
+{{--                   href="{{route('references')}}">Références</a></li>--}}
+{{--            <li>--}}
+{{--                <a class="{{ request()->routeIs('destock') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} "--}}
+{{--                   href="{{route('destock')}}">Destock</a></li>--}}
+{{--            <li>--}}
+{{--                <a class="{{ request()->routeIs('contact') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} "--}}
+{{--                   href="{{route('contact')}}">Contact & Devis</a></li>--}}
+{{--        </ul>--}}
 
-        <ul class="hidden min-[1360px]:flex md:flex-row gap-4 mx-auto md:w-1/2">
+        <ul class="flex-row text-sm xl:text-base gap-4 mx-auto hidden lg:flex w-1/2 lg:justify-around">
             <li>
                 <a class="{{ request()->routeIs('/') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} "
                    href="{{route('/')}}">Accueil</a></li>
@@ -33,8 +54,8 @@
                 <a class="{{ request()->routeIs('contact') ? 'dark:text-blue-300 text-violet-700 font-bold underline' : null }} "
                    href="{{route('contact')}}">Contact & Devis</a></li>
         </ul>
-        <label for="theme" class="flex flex-row items-center hover:cursor-pointer p-4">
-            <svg class="w-6 md:w-8 dark:fill-amber-200 fill-amber-700 hv" xmlns="http://www.w3.org/2000/svg"
+        <label for="theme" class="flex-row items-center justify-center hover:cursor-pointer p-4 hidden lg:flex w-1/5">
+            <svg class="w-6 xl:w-8 dark:fill-amber-200 fill-amber-700 hv" xmlns="http://www.w3.org/2000/svg"
                  xml:space="preserve" viewBox="0 0 207.628 207.628">
                 <circle cx="103.814" cy="103.814" r="45.868"/>
                 <path
@@ -44,9 +65,9 @@
             <button id="theme" name="theme"
                     x-on:click="darkMode = !darkMode; localStorage.setItem('darkMode', darkMode.toString());"
                     x-bind:class="darkMode ? 'after:translate-x-5' : 'after:translate-x-0'"
-                    class="dark:bg-gray-300 md:w-12 md:h-7 w-10 h-5 rounded-full flex flex-shrink-0 items-center dark:after:bg-slate-900 bg-gray-700 after:bg-blue-100 md:after:w-5 after:w-3 md:after:h-5 after:h-3 after:rounded-full p-1 ease-in-out duration-500 after:ease-in-out after:duration-500 ml-4 mr-4">
+                    class="dark:bg-gray-300 xl:w-12 xl:h-7 w-10 h-5 rounded-full flex flex-shrink-0 items-center dark:after:bg-slate-900 bg-gray-700 after:bg-blue-100 xl:after:w-5 after:w-3 xl:after:h-5 after:h-3 after:rounded-full p-1 ease-in-out duration-500 after:ease-in-out after:duration-500 ml-4 mr-4">
             </button>
-            <svg class="w-6 md:w-8 dark:fill-gray-300 fill-slate-700" xmlns="http://www.w3.org/2000/svg"
+            <svg class="w-6 xl:w-8 dark:fill-gray-300 fill-slate-700" xmlns="http://www.w3.org/2000/svg"
                  xml:space="preserve" viewBox="0 0 30.457 30.457">
                 <path
                     d="M29.693 14.49a1.18 1.18 0 0 0-1.32.353 9.37 9.37 0 0 1-7.27 3.446c-5.183 0-9.396-4.216-9.396-9.397a9.3 9.3 0 0 1 2.963-6.835 1.18 1.18 0 0 0 .264-1.343A1.171 1.171 0 0 0 13.75.03 15.172 15.172 0 0 0 0 15.194c0 8.402 6.836 15.238 15.238 15.238 8.303 0 14.989-6.506 15.219-14.812a1.169 1.169 0 0 0-.764-1.13z"/>

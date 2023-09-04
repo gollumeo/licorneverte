@@ -1,29 +1,15 @@
-// import Swiper from 'swiper';
-// import { Navigation, Pagination } from 'swiper/modules';
-// // import Swiper and modules styles
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-// import 'swiper/css/pagination';
-//
-// // init Swiper:
-// const swiper = new Swiper('.swiper', {
-//     // Optional parameters
-//     direction: 'vertical',
-//     loop: true,
-//
-//     // If we need pagination
-//     pagination: {
-//         el: '.swiper-pagination',
-//     },
-//
-//     // Navigation arrows
-//     navigation: {
-//         nextEl: '.swiper-button-next',
-//         prevEl: '.swiper-button-prev',
-//     },
-//
-//     // And if we need scrollbar
-//     scrollbar: {
-//         el: '.swiper-scrollbar',
-//     },
-// });
+let imgs = document.querySelectorAll('img');
+let index = 0;
+
+window.show = function (increase) {
+    index = index + increase;
+    if (index >= imgs.length) {
+        index = 0;
+    }
+
+    // Si on est au début, aller à la fin
+    if (index < 0) {
+        index = imgs.length - 1;
+    }
+    imgs[index].scrollIntoView({behavior: 'smooth'});
+}

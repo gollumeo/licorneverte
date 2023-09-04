@@ -28,6 +28,24 @@ class Carousel extends Component
         'grandville.jpg'
     ];
 
+    public array $imageDescription = [
+        "Mirabelliers dans les salons du prestigieux restaurant bruxellois La Villa Lorraine, 2021.",
+        "Décors végétaux du Jeu de l’amour et du hasard pour la mise en scène de Catherine Hiegel, 2018.",
+        "La nature reprend ses droits dans les salons de Boucheron, joallier place Vendôme, 2017.",
+        "La nature reprend ses droits dans les salons de Boucheron, joallier place Vendôme, 2017.",
+        "La nature reprend ses droits dans les salons de Boucheron, joallier place Vendôme, 2017.",
+        "La nature reprend ses droits dans les salons de Boucheron, joallier place Vendôme, 2017.",
+        "Pommiers pour Bruno de Lavenère sur le décor de Così fan tutte, 2016.",
+        "Sapins des Vosges pour les cristalleries de Saint-Louis au salon MAISON&OBJETS, 2015.",
+        "Stand des cristalleries de Saint-Louis au salon MAISON&OBJETS, 2015.",
+        "7 espèces d’arbres assemblées pour Monsieur, œuvre de Fabrice Langlade, 2013.",
+        "Arbre déraciné réalisé pour l’œuvre de Pierre Ardouvin La tempête, 2011.",
+        "Cerisier en fleurs confectionné pour la compagnie Les Menus Plaisirs, 2011.",
+        "Une forêt conçue pour la chorégraphe Gisèle Vienne au festival d’Avignon, 2010.",
+        "Prunus en fleurs, suspendu pour la compagnie Mi-Octobre, 2009.",
+        "Mirabellier dans la grande salle du Château de Cons-la-Grandville, 2005."
+    ];
+
     public int $currentIndex = 0;
 
     public bool $isTransitioning;

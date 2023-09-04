@@ -1,7 +1,7 @@
 <div>
-    <footer class="w-full border-t border-t-gray-700 md:min-h-12 bg-fuchsia-100 dark:bg-gray-700 dark:border-t-gray-300 flex text-sm flex-col content-center h-fit">
+    <footer class="w-full border-t border-t-gray-700 md:min-h-12 bg-fuchsia-100 dark:bg-gray-700 dark:border-t-gray-300 flex md:text-sm flex-col content-center text-xs">
 
-        <div class="flex md:flex-row w-full md:items-center md:content-center m-auto flex-col border-gray-700 dark:border-gray-300 ">
+        <div class="flex flex-row flex-wrap w-full md:items-center md:content-center m-auto border-gray-700 dark:border-gray-300">
             <img src="{{asset('assets/luxe.png')}}" class="md:w-2/12 w-1/3 self-center place-self-center" alt="terre-de-luxe"/>
             <div class="p-4 flex-1 self-center place-self-center text-center border-0 border-gray-700 dark:border-gray-300">
                 <p class="font-semibold">SARL M. H. DIFFUSION</p>
@@ -18,7 +18,7 @@
                 <p>TVA: FR52 341 734 473</p>
 
             </div>
-            <img src="{{asset('assets/epv_full.png')}}" class="md:w-2/12 w-1/3 self-center place-self-center" alt="epv"/>
+            <img src="{{asset('assets/epv_full.png')}}" class="lg:w-2/12 md:w-1/3 h-1/5 w-1/3 self-center place-self-center" alt="epv"/>
         </div>
 
 

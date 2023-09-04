@@ -11,13 +11,13 @@
     @livewireStyles
 </head>
 <body
-    class="bg-fuchsia-50 text-gray-700 antialiased dark:bg-slate-800 dark:text-gray-300 max-h-screen text-justify p-0 min-h-screen flex flex-col">
+    class="bg-fuchsia-50 text-gray-700 antialiased dark:bg-slate-800 dark:text-gray-300 max-h-screen text-justify p-0 min-h-screen flex flex-col w-full">
 <livewire:header/>
 <main
-    class="flex-1 w-4/5 m-auto md:min-h-fit min-h-screen border-l border-r border-x-gray-700 dark:border-x-gray-300 shadow-xl shadow-gray-700 dark:shadow-gray-300 dark:shadow flex justify-center">
-    <div class="flex flex-col justify-center items-center">
+    class="flex-1 md:w-4/5 w-full py-20 min-[400px]:py-5 m-auto md:min-h-fit border-l border-r border-x-gray-700 dark:border-x-gray-300 shadow-xl shadow-gray-700 dark:shadow-gray-300 dark:shadow flex justify-center">
+{{--    <div class="flex flex-col justify-center items-center">--}}
         <livewire:carousel/>
-    </div>
+{{--    </div>--}}
 </main>
 <livewire:footer/>
 @livewireScripts
