@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{ asset('assets/favicon.png') }}">
-    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"/>
     <title>{{config('app.name')}} - Galerie</title>
-    @vite(['resources/css/app.css', 'resources/js/carousel.js'])
+    @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/carousel.js'])
     @livewireStyles
 </head>
 <body
@@ -15,9 +14,7 @@
 <livewire:header/>
 <main
     class="flex-1 md:w-4/5 w-full py-20 min-[400px]:py-5 m-auto md:min-h-fit border-l border-r border-x-gray-700 dark:border-x-gray-300 shadow-xl shadow-gray-700 dark:shadow-gray-300 dark:shadow flex justify-center">
-{{--    <div class="flex flex-col justify-center items-center">--}}
-        <livewire:carousel/>
-{{--    </div>--}}
+<livewire:carousel/>
 </main>
 <livewire:footer/>
 @livewireScripts

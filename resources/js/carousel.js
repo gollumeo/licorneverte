@@ -1,15 +1,15 @@
-let imgs = document.querySelectorAll('img');
+let items = document.querySelectorAll('.carousel-item');
 let index = 0;
 
 window.show = function (increase) {
     index = index + increase;
-    if (index >= imgs.length) {
+    if (index >= items.length) {
         index = 0;
     }
 
     // Si on est au début, aller à la fin
     if (index < 0) {
-        index = imgs.length - 1;
+        index = items.length - 1;
     }
-    imgs[index].scrollIntoView({behavior: 'smooth'});
+    items[index].scrollIntoView({ behavior: 'smooth' });
 }

@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="{{ asset('assets/favicon.png') }}">
     <script src="https://kit.fontawesome.com/0e39d36e41.js" crossorigin="anonymous"></script>
     <title>{{config('app.name')}} - Contact & Devis</title>
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>
 

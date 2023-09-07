@@ -7,7 +7,8 @@
 
     <link rel="shortcut icon" href="{{ asset('assets/favicon.png') }}">
     <title>{{config('app.name')}} - Destock</title>
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
     @livewireStyles
 </head>
 
